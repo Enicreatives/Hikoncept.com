@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Kolawole Alao</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Hikoncept</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Kolawole Alao</span>
+          </h2>
+          <p class="text-muted">
+            I'm A Dynamic Product Designer with Proven Industry Expertise with a robust track record in mechanical and industrial engineering sectors, I bring to the table a wealth of experience in Product Design.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Hire Me
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/LUMO.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Provide Wide Range of <br />
+          Digital Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Product Design Expertise</h4>
+              <p class="text-muted">
+                Proficient in creating innovative designs for mechanical and industrial engineering projects.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>CAD Proficiency</h4>
+              <p class="text-muted">
+                 Skilled in industry-standard tools like Autodesk Inventor, Fusion 360, SolidWorks, and Keyshot for precise and detailed designs.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Mechanical Engineering</h4>
+              <p class="text-muted">
+                Strong foundation in mechanical engineering, backed by a Bachelor’s degree and practical experience in design and execution.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress industrial design">
+                  <span class="progress-value industrial design-progress">99%</span>
+                </div>
+                <br />
+                <span class="text">INDUSTRIAL DESIGN</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress sheet metal design">
+                  <span class="progress-value sheet metal design-progress">97%</span>
+                </div>
+                <br />
+                <span class="text">PRODUCT DESIGN</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-furniture design">
+                  <span class="progress-value furniture design">95%</span>
+                </div>
+                <br />
+                <span class="text">FURNITURE DESIGN</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress 3d print">
+                  <span class="progress-value 3d print-progress">90%</span>
+                </div>
+                <br>
+                <span class="text">PROJECT MANAGEMENT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>About Me</small>
+            <h3>Beautiful & Unique Digital Experiences</h3>
+            <p class="text-muted">
+              I excel in transforming innovative concepts into real-world ​solutions. My expertise spans across leading CAD and CAM tools like Fusion 360, ​Autodesk Inventor, and SolidWorks, enhanced by my skills in creating photorealistic ​renders with KeyShot. I hold a Bachelor’s degree in Mechanical Engineering from ​Obafemi Awolowo University, which underpins my blend of theoretical knowledge ​and practical experience.
+            </p>
+            <p class="text-muted">
+              I excel in Microsoft Office, team leadership, and driving excellence through attention to detail. Passionate about innovative design, I’m eager to contribute my creative and engineering skills to a boundary-pushing team. Let’s achieve remarkable results together!
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="Entry Level Web Developer Resume.pdf"
+                download="SampleCV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check My Portfolio</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="game">INDUSTRIAL DESIGN</button>
+        <button class="filter-item" data-filter="website">3D PRINT</button>
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/industry.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Industrial DESIGN</h4>
+                <a href="#" class="link">Recent projects</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/furni.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">TriHexa Table</h4>
+                <a href="#" class="read-more-btn link">Recent projects</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/sheet.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Sheet metal designs</h4>
+                <a href="#" class="read-more-btn link">Recent projects</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/indus.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Industrial</h4>
+                <a href="#" class="read-more-btn link">Recent projects</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/furniture.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Side Shelf</h4>
+                <a href="#" class="read-more-btn link">Recent projects</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/sheeto.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Sheet metal design</h4>
+                <a href="#" class="read-more-btn link">Recent projects</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/industria.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Industrial DESIGN</h4>
+                <a href="#" class="link">Recent projects</a>
+              </div>
+        </div>
+        </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/furnitia.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Monk Table</h4>
+                <a href="#" class="read-more-btn link">Recent projects</a>
+              </div>
+            </div>
+            </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/sheetia.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Sheet metal design</h4>
+                <a href="#" class="read-more-btn link">Recent projects</a>
+              </div>
+            </div>
+            </div>
+            <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/minitruck.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Mini Truck</h4>
+                <a href="#" class="link">past projects</a>
+              </div>
+              </div>
+          </div>   
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/coffee tab.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Coffee Table</h4>
+                <a href="#" class="read-more-btn link">past projects</a>
+              </div>
+            </div>
+            </div>  
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/autodesk.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Autodesk Designathon</h4>
+                <a href="#" class="read-more-btn link">Past projects</a>
+              </div>
+            </div>
+            </div>
+            <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/potted.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Potted Flower Shed</h4>
+                <a href="#" class="link">Past projects</a>
+              </div>
+              </div>
+              </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/orbix.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">The Orbix Modular Cabinet</h4>
+                <a href="#" class="read-more-btn link">Past projects</a>
+              </div>
+            </div>
+            </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/foldy.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Foldy Pen Holder</h4>
+                <a href="#" class="read-more-btn link">Recent projects</a>
+              </div>
+             </div>
+            </div>
+            <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/toolbox.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">All Tool Box D2</h4>
+                <a href="#" class="link">Past projects</a>
+              </div> 
+              </div>
+              </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/rodent.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Rodent Chamber</h4>
+                <a href="#" class="read-more-btn link">Past Projects projects</a>
+              </div> 
+              </div>
+              </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/side.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Wall Side Desk</h4>
+                <a href="#" class="read-more-btn link">Past projects</a>
+              </div>
+               </div>
+            </div>
+            <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/PXID.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">PXID-PX10 Escooter</h4>
+                <a href="#" class="link">Past projects</a>
+              </div>
+              </div>
+              </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/scan.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Scandinavian Floor Lamp</h4>
+                <a href="#" class="read-more-btn link">Past projects</a>
+              </div>
+            </div>
+            </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/storm.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Storm Energy Drink</h4>
+                <a href="#" class="read-more-btn link">Past projects</a>
+              </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- testimonial section starts  -->
+    <section class="testimonial mt-5 pt-5" id="testimonial">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10" data-aos="slide-right">
+          <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+          <div class="heading">
+            <small>Testimonials</small>
+            <h3>Happy Clients Feedback</h3>
+            <!-- here we will use carousel element from bootstrap -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        KoLawole did a CNC/CAD project for me and did a ​fantastic job. Listened well, took initiative, ​communicated, and improved my original design ​when appropriate. I would recommend him for ​any product/industry designer position.
+                      </p>
+                      <h4>LANCE DONNY</h4>
+                      <small class="fs-6 text-muted">Chief Executive Officer ​(CEO) at AgCode</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Kolawole is an experienced Engineer who
+
+is dedicated to his work and will solve any problem ​within the niche of his expertise.
+                      </p>
+                      <h4>OLUWASEUN ADEYERA</h4>
+                      <small class="fs-6 text-muted">Automation programmer || ​Industrial designer</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                         I decided to hire someone on the Internet and then met with Alao. He is very good ​with CNC and Fusion 360. He explained to me how to run my CNC machine and ​how to use everything in Fusion 360. Alao is fast, and he solves any problem. He did ​a good job and did what my engineering teacher could not. I will absolutely hire ​him again. Give him a chance. He will teach you everything you need about CNC ​and Fusion 360.
+                      </p>
+                      <h4>JOSUE VALENCIA</h4>
+                      <small class="fs-6 text-muted">Student at College of ​the Sequoias</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>07, Adelekan Street</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+12348163671085</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>akonml.cad@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button href="" class="rounded-pill dribble">
+          <i class="bi bi-dribbble"></i>
+        </button>
+        <button href="" class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button href="" class="rounded-pill behance">
+          <i class="bi bi-behance"></i>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2024 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
